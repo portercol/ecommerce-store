@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Container = styled.div`
   height: 30px;
@@ -9,14 +9,10 @@ const Container = styled.div`
   justify-content: center;
   font-weight: 500;
   font-size: 14px;
-`
+`;
 
 const Announcement = () => {
-  return (
-    <Container>
-      Here's some announcements!
-    </Container>
-  )
-}
+  return <Container>Here's some announcements!</Container>;
+};
 
-export default Announcement
+export default Announcement;
