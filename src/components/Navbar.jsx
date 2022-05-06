@@ -5,8 +5,8 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 60px;
-  // background-color: light-gray;
-  // color: black;
+  background-color: light-gray;
+  color: black;
 `;
 
 const Wrapper = styled.div`
@@ -24,10 +24,10 @@ const Left = styled.div`
   cursor: pointer;
 `;
 
-const Language = styled.span`
-  font-size: 18px;
-  cursor: pointer;
-`;
+// const Language = styled.span`
+//   font-size: 18px;
+//   cursor: pointer;
+// `;
 
 const SearchContainer = styled.div`
   border: 0.5px solid lightgray;
@@ -74,7 +74,8 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Language>EN</Language>
+          <MenuItem>HOME</MenuItem>
+          {/* <Language>EN</Language> */}
           <SearchContainer>
             <Input />
             <Search style={{ color: "gray", fontSize: 16 }} />
@@ -84,8 +85,8 @@ const Navbar = () => {
           <Logo>Art by Alex</Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
+          <MenuItem>ABOUT</MenuItem>
+          <MenuItem>CONTACT</MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlined />

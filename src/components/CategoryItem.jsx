@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   flex: 1;
-  margin: 2px;
+  margin: 3px;
   height: 70vh;
   position: relative;
 `;
@@ -28,7 +28,6 @@ const Info = styled.div`
 const Title = styled.h1`
   color: white;
   margin-bottom: 20px;
-  font-weight: bold;
 `;
 
 const Button = styled.button`
@@ -36,7 +35,7 @@ const Button = styled.button`
   padding: 10px;
   background-color: white;
   color: gray;
-  cursur: pointer;
+  cursor: pointer;
   font-weight: 600;
 `;
 

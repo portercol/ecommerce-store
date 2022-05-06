@@ -26,16 +26,51 @@ export const categories = [
   {
     id: 1,
     img: "https://i.ibb.co/09qMBBH/pexels-pavel-danilyuk-8382628.jpg",
-    title: "CANVAS ORIGINAL 1",
+    title: "ORIGINAL 1",
   },
   {
     id: 2,
     img: "https://i.ibb.co/09qMBBH/pexels-pavel-danilyuk-8382628.jpg",
-    title: "CANVAS ORIGINAL 2",
+    title: "ORIGINAL 2",
   },
   {
     id: 3,
     img: "https://i.ibb.co/09qMBBH/pexels-pavel-danilyuk-8382628.jpg",
-    title: "CANVAS ORIGINAL 3",
+    title: "ORIGINAL 3",
+  },
+];
+
+export const products = [
+  {
+    id: 1,
+    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+  },
+  {
+    id: 2,
+    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+  },
+  {
+    id: 3,
+    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+  },
+  {
+    id: 4,
+    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+  },
+  {
+    id: 5,
+    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+  },
+  {
+    id: 6,
+    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+  },
+  {
+    id: 7,
+    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+  },
+  {
+    id: 8,
+    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
   },
 ];
