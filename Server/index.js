@@ -14,9 +14,6 @@ mongoose
   });
 
 app.use(express.json());
-// app.get("/api/test", () => {
-//   console.log("test is successful");
-// });
 
 app.use("/api/users", userRoute);
 
