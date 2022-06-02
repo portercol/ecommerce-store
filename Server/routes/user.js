@@ -1,6 +1,6 @@
 const User = require("../models/User");
 const {
-  verifyToken,
+  // verifyToken,
   verifyTokenAndAuth,
   verifyTokenAndAdmin,
 } = require("./verifyToken");
